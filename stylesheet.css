@@ -12,9 +12,13 @@ h1{
     color:darkslategray;
 }
 
+th, td{
+    padding: 15px;
+}
+
 /*Classes*/
 
-.project{
+.project{   
     font-family:consolas;
     color:black;
     background-color:darkgray;
