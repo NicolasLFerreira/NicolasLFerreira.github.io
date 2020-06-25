@@ -1,6 +1,21 @@
+/*Text*/
+
 p{
     font-family:arial;
     color:black;
     border: 2px solid gray;
     margin: 20px;
+}
+
+h1{
+    font-family:courier;
+    color:darkslategray;
+}
+
+/*Classes*/
+
+.project{
+    font-family:consolas;
+    background-color:darkgray;
+    color:black;
 }
