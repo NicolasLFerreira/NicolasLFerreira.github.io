@@ -9,14 +9,14 @@ body{
 /*Headers*/
 
 h1{
-    font-family:consolas;
+    font-family:monospace;
     color:lightcoral;
     background-color: black;
     border: 50px solid black;
 }
 
 h2{
-    font-family:consolas;
+    font-family:sans-serif;
     color:darkslategray;
 }
 
