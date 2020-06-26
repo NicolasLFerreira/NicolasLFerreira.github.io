@@ -24,9 +24,8 @@ h4{
 /*Paragraph  & other text tags*/
 
 p{
-    font-family:Cochin;
+    font-family:arial;
     color:black;
-    border: 2px solid gray;
     margin: 20px;
 }
 
@@ -38,8 +37,11 @@ a{
 
 /*Tables*/
 
-th, td{
-    padding: 15px;
+th, td {
+    font-family:arial;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 /*Classes*/
@@ -48,6 +50,6 @@ th, td{
     font-family:consolas;
     color:black;
     background-color:darkgray;
-    border: 2px solid darkslategray;
-    margin:50px;
+    border: 2px solid black;
+    margin:50px;    
 }
