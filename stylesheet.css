@@ -1,5 +1,49 @@
 /*Text*/
 
+/*Parts*/
+
+body{
+    background-color: darkslategray;
+}
+
+/*Headers*/
+
+h1{
+    font-family:consolas;
+    color:lightcoral;
+    background-color: black;
+    border: 50px solid black;
+}
+
+h2{
+    font-family:consolas;
+    color:darkslategray;
+}
+
+h3{
+    font-family:consolas;
+    color:darkslategray;
+}
+
+h4{
+    font-family:consolas;
+    color:black;
+    background-color: #92A8D1;
+    border: 20px solid #99A1F1;
+}
+
+h5{
+    font-family:consolas;
+    color:darkslategray;
+}
+
+h6{
+    font-family:consolas;
+    color:darkslategray;
+}
+
+/*Paragraph  & other text tags*/
+
 p{
     font-family:arial;
     color:black;
@@ -7,10 +51,13 @@ p{
     margin: 20px;
 }
 
-h1{
-    font-family:consolas-bold;
-    color:darkslategray;
+a{
+    font-family: consolas;
+    color: blueviolet;
+    margin: 10px;
 }
+
+/*Tables*/
 
 th, td{
     padding: 15px;
