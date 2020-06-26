@@ -11,8 +11,8 @@ body{
 h1{
     font-family:monospace;
     color:lightcoral;
-    background-color: black;
-    border: 50px solid black;
+    background-color: rgb(38, 63, 63);
+    opacity: 0.5;
 }
 
 h2{
@@ -22,7 +22,7 @@ h2{
 
 h3{
     font-family:consolas;
-    color:darkslategray;
+    color:#a040ff;
 }
 
 h4{
