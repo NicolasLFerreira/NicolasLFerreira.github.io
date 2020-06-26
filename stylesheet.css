@@ -12,17 +12,6 @@ h1{
     font-family:monospace;
     color:lightcoral;
     background-color: rgb(38, 63, 63);
-    opacity: 0.5;
-}
-
-h2{
-    font-family:sans-serif;
-    color:darkslategray;
-}
-
-h3{
-    font-family:consolas;
-    color:#a040ff;
 }
 
 h4{
@@ -32,20 +21,10 @@ h4{
     border: 20px solid #99A1F1;
 }
 
-h5{
-    font-family:consolas;
-    color:darkslategray;
-}
-
-h6{
-    font-family:consolas;
-    color:darkslategray;
-}
-
 /*Paragraph  & other text tags*/
 
 p{
-    font-family:arial;
+    font-family:Cochin;
     color:black;
     border: 2px solid gray;
     margin: 20px;
