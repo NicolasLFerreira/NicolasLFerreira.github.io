@@ -11,6 +11,7 @@
 
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="override.css">
+		<script src="javascript.js"></script>
 
         <!-- Bootstrap classes modifier -->
 
@@ -93,8 +94,17 @@
                         <h4>Non Augue</h4>
                         Nulla rutrum tempus varius. Nam lobortis semper viverra. Donec quis maximus dui. Aliquam id lorem id nibh tristique egestas sed sed elit. Cras sapien nunc, vulputate non quam eu, vehicula vulputate ex. Proin ac justo condimentum, blandit lectus ut, tempus lacus. Nulla imperdiet odio ultrices consequat molestie. Integer nibh diam, scelerisque vel tellus ut, pharetra hendrerit sapien. Nunc ipsum nibh, gravida et tincidunt eu, tempus eget sapien. Fusce sed enim efficitur, hendrerit lectus in, egestas metus. Sed nunc elit, dictum sed nisi vel, accumsan cursus massa. Sed eleifend fringilla ante, ut volutpat lacus.
                     </div>
-
-                    <img src="Images/image.png" class="img-fluid" alt="Responsive image">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <p id="inputText" class="box">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"></div>
+    					<button class="buttonNormal" onclick="changeLabels('inputText', 'input')">Change</button>
+					    <input id="input" class="textBox" placeholder="write something...">
+                    </div>
+	
+                    <p id="dateText" class="box">dd/mm/yyyy</p>
+					<button class="buttonNormal" onclick="printDate('dateText')">Date</button>
                 </div>
             </div>
         </div>
