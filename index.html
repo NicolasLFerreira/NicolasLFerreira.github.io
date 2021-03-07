@@ -1,117 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width = device-width, initial-scale = 1">
-        
         <title>NLF</title>
-
-        <!-- External resources links -->
-
-        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="override.css">
+        <link rel="stylesheet" href="style.css">
 		<script src="javascript.js"></script>
-
-        <!-- Bootstrap classes modifier -->
-
-        <style>
-
-
-            .btn{
-                color: white;
-            }
-        </style>
-
     </head>
     <body>
-
-        <!-- Header -->
-
-        <div class="container">
-            <h1>Nicolas Ferreira Site</h1>
-            <div class="jumbotron button_bg">
-                <div class="btn-group btn-group-lg" role="group">
-                    <a href="https://nicolaslferreira.github.io" type="a" class="btn btn-default">Home</a>
-                    <a href="#" type="a" class="btn btn-default">About</a>
-                    <a href="#" type="a" class="btn btn-default">Help</a>
-                    <a href="https://github.com/NicolasLFerreira" type="a" class="btn btn-default">My GitHub</a>
-                    <a href="#" type="a" class="btn btn-default">Forums</a>
-                </div>
-            </div>
+        <div class="gridContainer">
+            <div id="inputText" class="gridItem textBox">Text will go here</div>
+            <input id="input" class="gridItem textBox" style="background-color: #000000ff;" placeholder="write something...">
+            <button class="gridItem textBox buttonNormal" onclick="changeLabels('inputText', 'input')">Change</button>
         </div>
 
-        <!-- Grid -->
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h4>Lorem Ipsum</h4>
-                        Donec aenean consectetur
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h4></h4>
-                        
-                </div>
-
-                <div class="clearfix visible-sm"></div>
-
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h4></h4>
-
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h4></h4>
-                        
-                </div>
-            </div>
+        <div class="gridContainer">
+            <div id="dateText" class="gridItem textBox">dd/mm/yyyy</div>
+            <button class="gridItem textBox buttonNormal" onclick="printDate('dateText')">Date</button>
         </div>
 
-        <!-- Lower body -->
-
-        <div class="container">
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <h4>Lorem Ipsum</h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus placerat hendrerit. Aenean sit amet lacinia sem. Nam ultrices diam felis, at blandit est sollicitudin nec. Duis dignissim neque at tristique suscipit. Phasellus rhoncus nunc aliquet vulputate pretium. Duis mollis justo non erat sollicitudin efficitur. Cras at elit sed enim aliquet posuere.
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <h4>Quis Lorem</h4>
-                        Donec mattis lorem quis accumsan volutpat. Aliquam porta sollicitudin risus in auctor. Sed a sem massa. Curabitur sodales tincidunt velit vitae condimentum. Phasellus bibendum nisl ac augue maximus, vel pharetra sapien laoreet. Ut facilisis ut lacus a finibus. Nulla quis interdum sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat mattis metus, ac egestas enim egestas sed. Nunc suscipit dolor ut sagittis imperdiet. Donec vel luctus neque. Nam consequat dictum massa, in sodales justo egestas sit amet. Maecenas sit amet arcu in massa lobortis lacinia nec id nunc. Curabitur aliquet at nunc eget tempus.
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <h4>Volutpat Risus</h4>
-                        Pellentesque non augue et nunc ullamcorper viverra. Proin faucibus sit amet tellus a sodales. Vestibulum scelerisque volutpat felis, non bibendum tortor vestibulum luctus. Mauris ut arcu libero. In hac habitasse platea dictumst. Nam ornare egestas nisi, sit amet ultricies augue mattis blandit. Nullam tempor luctus magna quis auctor. Nulla sit amet dolor orci. Duis porta nunc metus, et auctor diam pretium non. Integer dapibus commodo quam, sed tristique lectus elementum pretium. Mauris tempor, tortor id maximus dignissim, sapien sem aliquet ante, sit amet rhoncus massa sapien eu risus. Ut vel lectus eros. Mauris ut sodales risus. Sed porttitor posuere nibh, eu tempor ligula. Proin vel feugiat eros, eu tempus orci.
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <h4>Non Augue</h4>
-                        Nulla rutrum tempus varius. Nam lobortis semper viverra. Donec quis maximus dui. Aliquam id lorem id nibh tristique egestas sed sed elit. Cras sapien nunc, vulputate non quam eu, vehicula vulputate ex. Proin ac justo condimentum, blandit lectus ut, tempus lacus. Nulla imperdiet odio ultrices consequat molestie. Integer nibh diam, scelerisque vel tellus ut, pharetra hendrerit sapien. Nunc ipsum nibh, gravida et tincidunt eu, tempus eget sapien. Fusce sed enim efficitur, hendrerit lectus in, egestas metus. Sed nunc elit, dictum sed nisi vel, accumsan cursus massa. Sed eleifend fringilla ante, ut volutpat lacus.
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <p id="inputText" class="box">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"></div>
-    					<button class="buttonNormal" onclick="changeLabels('inputText', 'input')">Change</button>
-					    <input id="input" class="textBox" placeholder="write something...">
-                    </div>
-	
-                    <p id="dateText" class="box">dd/mm/yyyy</p>
-					<button class="buttonNormal" onclick="printDate('dateText')">Date</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Javascript -->
-
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </body>
 </html>

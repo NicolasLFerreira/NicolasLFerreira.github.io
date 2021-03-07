@@ -1,0 +1,47 @@
+:root {
+    --main-font-color: white;
+    --main-border-color: gray;
+    --pixel-size: 10px;
+    --font-size: 30px;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+.buttonNormal {
+    padding: 20px 40px;
+    margin: var(--pixel-size);
+
+    width: max-content;
+
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    cursor: pointer;
+}
+
+.gridContainer{
+    padding: var(--pixel-size);
+    border: 2px solid #9999ff;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    background-color: darkslategrey;
+}
+
+.gridItem{
+    border: 10px double #000000ff;
+    padding: 20px;
+
+    background-color: #000000aa;
+    text-align: center;
+}
+
+.textBox{
+    font-family: monospace;
+    font-size: var(--font-size);
+    color: var(--main-font-color);
+}
