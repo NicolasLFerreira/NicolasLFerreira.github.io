@@ -22,12 +22,20 @@ body{
     cursor: pointer;
 }
 
+.container{
+    padding: var(--pixel-size);
+    border: 2px solid #9999ff;
+
+    background-color: darkslategrey;
+}
+
 .gridContainer{
     padding: var(--pixel-size);
     border: 2px solid #9999ff;
 
     display: grid;
-    grid-template-columns: auto auto auto;
+    align-content: center;
+    grid-template-columns: 33% 33% 33%;
 
     background-color: darkslategrey;
 }

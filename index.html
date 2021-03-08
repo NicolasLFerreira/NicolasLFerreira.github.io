@@ -6,14 +6,22 @@
 		<script src="javascript.js"></script>
     </head>
     <body>
-        <div class="gridContainer">
-            <div id="inputText" class="gridItem textBox">Text will go here</div>
-            <input id="input" class="gridItem textBox" style="background-color: #000000ff;" placeholder="write something...">
-            <button class="gridItem textBox buttonNormal" onclick="changeLabels('inputText', 'input')">Change</button>
-
-            <div id="dateText" class="gridItem textBox">dd/mm/yyyy</div>
-            <button class="gridItem textBox buttonNormal" onclick="printDate('dateText')">Date</button>
+        <!-- <div class="gridContainer"> -->
+            <div id="inputText" class="gridItem textBox">I'm a box :)</div>
+            <div id="dateText" class="gridItem textBox">Date: dd/mm/yyyy - Time: hh:mm:ss</div>
+        <!-- </div> -->
+        
+        <div class="container">
+            <input id="input" class="textBox" style="background-color: #000000ff;" placeholder="write something...">
         </div>
+
+        <div class="gridContainer">
+            <button class="gridItem textBox buttonNormal" onclick="changeLabels('inputText', 'input')">Change</button>
+            <button class="gridItem textBox buttonNormal" onclick="printDate('dateText')">Print date</button>
+            <button class="gridItem textBox buttonNormal" onclick="resetDate('dateText')">Reset date</button>
+        </div>
+
+        <img id="img" src="character.png" height="180" width="320">
 
     </body>
 </html>
